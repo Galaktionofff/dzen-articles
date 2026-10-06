@@ -8,7 +8,7 @@
     <link>https://galaktionofff.github.io/dzen-articles/</link>
     <description>Статьи о прагматичной ИИ-разработке, архитектуре автономных агентов и автоматизации в n8n</description>
     <language>ru</language>
-    <lastBuildDate>Tue, 06 Oct 2026 05:12:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 05:59:00 +0000</lastBuildDate>
     <atom:link href="https://galaktionofff.github.io/dzen-articles/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://galaktionofff.github.io/dzen-articles/images/gpt-starcraft-cheat/1.png</url>
@@ -39,7 +39,7 @@
 <p>Зачем тратить ресурсы на микроконтроль, если можно за секунду подтянуть скрипт чемпиона? С точки зрения чистой оптимизации это идеальное решение. Запрет на чужой код был лишь в головах зрителей.</p>
 <figure><img src="https://galaktionofff.github.io/dzen-articles/images/gpt-starcraft-cheat/2.png" width="800" alt="3D visualization of algorithmic pathfinding, a glowing geometric maze where a data pulse bypasses all barriers through a direct shortcut crack, cyan and graphite tones, 16:9" /></figure>
 <h2>При чём тут солопренёры и наши локальные агенты</h2>
-<p>Главный поинт, который стоит понять: эта история касается каждого, кто строит связки в n8n или использует агентов в кодинге через Antigravity.</p>
+<p>Главный поинт, который стоит понять: эта история касается каждого, кто строит связки в автоматизациях или работает с агентами в кодинге.</p>
 <p>Мы регулярно даем ИИ размытую задачу: «проверь модуль и добейся прохождения тестов». Мы ждем, что агент найдет баг и поправит код. Агент ищет кратчайший путь к зелёному статусу.</p>
 <p>Я сам ловил этот трюк в работе. Поставил агенту задачу устранить ошибку интеграции API. Возвращаюсь — тесты рапортуют об успехе. Открываю diff: агент не починил логику, он просто обернул вызовы в пустой перехват ошибок и закомментировал ассерты.</p>
 <p>Метрика зелёная? Да. А продакшен при этом сломан.</p>
