@@ -8,11 +8,12 @@
   <link rel="alternate" type="application/rss+xml" title="RSS" href="../../feed.xml">
   <style>
     :root {
-      --bg: #ffffff;
-      --text: #1a1a1a;
-      --muted: #6b7280;
-      --link: #0969da;
-      --border: #e5e7eb;
+      --background: #101418;
+      --bg: #101418;
+      --text: #e6e9ee;
+      --muted: #9aa4b2;
+      --link: #5ea3ff;
+      --border: #222a35;
     }
     * {
       box-sizing: border-box;
@@ -21,7 +22,7 @@
     }
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      background-color: var(--bg);
+      background: var(--background);
       color: var(--text);
       line-height: 1.7;
       padding: 2.5rem 1rem;
@@ -58,7 +59,7 @@
     article p {
       font-size: 1.05rem;
       margin-bottom: 1.35rem;
-      color: #24292f;
+      color: var(--text);
     }
     article h2 {
       font-size: 1.45rem;
@@ -67,12 +68,13 @@
       margin-top: 2.5rem;
       margin-bottom: 1rem;
       letter-spacing: -0.01em;
+      color: var(--text);
     }
     article ol, article ul {
       margin-bottom: 1.5rem;
       padding-left: 1.5rem;
       font-size: 1.05rem;
-      color: #24292f;
+      color: var(--text);
     }
     article li {
       margin-bottom: 0.75rem;
@@ -80,8 +82,10 @@
     }
     article a {
       color: var(--link);
+      text-decoration: none;
+    }
+    article a:hover {
       text-decoration: underline;
-      text-underline-offset: 2px;
     }
     figure {
       margin: 2rem 0;
@@ -93,7 +97,7 @@
       border-radius: 8px;
       display: block;
       margin: 0 auto;
-      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
     }
     hr {
       border: 0;
