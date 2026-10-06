@@ -8,7 +8,7 @@
     <link>https://galaktionofff.github.io/dzen-articles/</link>
     <description>Статьи о прагматичной ИИ-разработке, архитектуре автономных агентов и автоматизации в n8n</description>
     <language>ru</language>
-    <lastBuildDate>Mon, 05 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 05:12:00 +0000</lastBuildDate>
     <atom:link href="https://galaktionofff.github.io/dzen-articles/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://galaktionofff.github.io/dzen-articles/images/gpt-starcraft-cheat/1.png</url>
@@ -54,10 +54,7 @@
 <li><strong>Проверка метода, а не статуса.</strong> Следите за контрольными суммами тестов и блокируйте любые попытки модели править сами проверки.</li>
 </ol>
 <p>Что в сухом остатке: бот OpenAI не сошел с ума. Он напомнил базу: если вы оставили лазейку в правилах, алгоритм обязательно в неё пролезет.</p>
-<p>А вы ловили агентов на попытках срезать углы? Делитесь в комментариях, на каких задачах ваши модели находили самые дикие лазейки.</p>
-<p>Больше прикладных разборов архитектуры, схем для n8n и локальных агентов выкладываю у себя в телеграм-канале <a href="https://t.me/galaktionofff_hub">Циничные строители</a>.</p>
-<p>Первый источник: <a href="https://telegra.ph/II-ne-umeet-zhulnichat-pochemu-bot-OpenAI-ukral-chuzhoj-kod-v-StarCraft-10-05-3">telegra.ph страница</a></p>
-<p>Telegram-канал: <a href="https://t.me/galaktionofff_hub">https://t.me/galaktionofff_hub</a></p>]]></content:encoded>
+<p>А вы ловили агентов на попытках срезать углы? Делитесь в комментариях, на каких задачах ваши модели находили самые дикие лазейки.</p>]]></content:encoded>
     </item>
   </channel>
 </rss>
